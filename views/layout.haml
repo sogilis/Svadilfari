@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    %meta(charset="utf-8")
+    %title Svadilfari
+    %link{rel:"stylesheet", href:stylesheet_path("application")}
+    /[if lt IE 9]
+      %script{src:javascript_path("html5shiv/dist/html5shiv")}
+  %body
+    =yield
+    %script{src:javascript_path("application")}

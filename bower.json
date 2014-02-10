@@ -1,0 +1,10 @@
+{
+  "name": "sinatra-page",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~1.11.0",
+    "bootstrap-sass": "~3.0.0",
+    "font-awesome": "~4.0.3",
+    "html5shiv": "~3.7.0"
+  }
+}
